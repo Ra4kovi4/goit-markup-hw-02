@@ -1,0 +1,58 @@
+/* вторичный цвет текста #212121 */
+
+/* основной цвет текста цвет текста #757575 */
+
+/* цвет интерактивных кнопок #2196F3 */
+/* основной цвет фона #FFFFFF */
+/* вторичный цвет фона #F5F4FA */
+:root {
+  --secondary-color-text: #212121;
+  --primary-color-text: #757575;
+  --primary-bgc: #ffffff;
+  --secondary-bgc: #2f303a;
+  --button-color: #2196f3;
+}
+body {
+  color: var(--primary-color-text);
+  background-color: var(--primary-bgc);
+  font-family: Roboto, sans-serif;
+}
+.list {
+  list-style: none;
+}
+/* Оформление логотипа */
+.logo {
+  color: var(--secondary-color-text);
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.logo > span {
+  color: var(--button-color);
+}
+/* Оформление навигации сайта */
+.site-nave .link {
+  color: var(--secondary-color-text);
+}
+.site-nave .link,
+.contacts .link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.site-nave .link.current {
+  color: var(--button-color);
+}
+.site-nave .link:hover,
+.site-nave .link:focus,
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--button-color);
+}
+.contacts .link {
+  color: var(--primary-color-text);
+}
+/* Оформление основной страницы */
