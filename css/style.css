@@ -15,8 +15,13 @@
 }
 body {
   font-family: Roboto, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
   color: var(--primary-color-text);
   background-color: var(--primary-bgc);
+}
+a {
+  text-decoration: none;
 }
 .list {
   list-style: none;
@@ -32,7 +37,6 @@ body {
   font-family: Raleway, sans-serif;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
 }
 
 .logo span {
@@ -45,7 +49,6 @@ body {
 .site-nave .link,
 .contacts .link {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
@@ -93,20 +96,15 @@ body {
   font-size: 36px;
   line-height: 1, 16;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 /* Премущества */
 .feature .feature-title {
   color: var(--secondary-color-text);
-  font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .feature .text {
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
 }
 /* Оформление деятельности */
 
@@ -119,8 +117,6 @@ body {
   font-weight: 500;
 }
 .team .item {
-  width: 270px;
-  height: 368px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   background-color: var(--primary-bgc);
@@ -129,8 +125,8 @@ body {
 .team .text {
   font-size: 16px;
   line-height: 1.18;
-  letter-spacing: 0.03em;
 }
+
 /* Оформление подвала */
 .footer {
   background-color: var(--secondary-bgc);
@@ -143,16 +139,12 @@ body {
 }
 .adress .text {
   font-style: normal;
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--primary-bgc);
 }
 .adress .link {
   font-style: normal;
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 .adress .link:hover,
@@ -167,7 +159,7 @@ body {
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
-  letter-spacing: 0.03em;
+
   background-color: var(--secondary-btn-color);
   cursor: pointer;
 }
@@ -185,6 +177,5 @@ body {
 .work .text {
   font-size: 16px;
   line-height: 1.87;
-  letter-spacing: 0.03em;
   color: var(--primary-color-text);
 }
